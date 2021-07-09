@@ -95,19 +95,36 @@ grid-template-columns: repeat(3,auto)
 /* .player1{
   width: 120px;
   height:45px;
-  border-radius: 6px;
-  flex: 3;
+  /* border-radius: 6px;*/
+  /* flex: 3;
   background-color: rgb(247 235 235 / 50%)
 
 }
-.player2{
-  width: 120px;
+.player2{ */
+  /* width: 120px;
   height:45px;
   border-radius: 6px;
   flex: 3;
   background-color: rgb(247 235 235 / 50%) */
 
 /* } */
+.placeHold1{
+  width: 120px;
+  height:40px;
+  border-radius: 6px;
+  flex: 3;
+  text-color: black;
+  background-color: rgb(247 235 235 / 50%)
+
+}
+::placeholder{
+  color:black;
+  text-align: center;
+}
+
+input {
+    text-align: center;
+}
 .restart{
   width: 120px;
   height:45px;
@@ -130,6 +147,7 @@ grid-template-columns: repeat(3,auto)
   text-align:center;
 
 }
+
 
 
 /* background-image: url('../IMG/O.png');
