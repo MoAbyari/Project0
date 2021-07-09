@@ -5,41 +5,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tik Tak Toe</title>
-  <link rel="stylesheet" href="game.css">
-  <script src="jquery.js"></script>
-  <script src="logic.js"></script>
-  <script src="dom.js"></script>
+  <link rel="stylesheet" href="CSS/game.css">
+  <script src="JS/jquery.js"></script>
+  <script src="JS/logic.js"></script>
+  <script src="JS/dom.js"></script>
 </head>
 
 
 <body>
   <div class= 'container'>
+
     <div class = 'box1'>
-      <div class='box101'> <h1> </h1></div>
-      <div class='box102'> <h1> </h1></div>
+      <div class= 'xBox'>
+        <img id= 'x'src="IMG/X.png" alt="x" width = "150" height = "150" "photo">
+      </div>
+      <div class = 'box1'>
+        <h1 class= WINNER>  </h1>
+      </div>
+      <div class= 'oBox'>
+        <img id= 'O'src="IMG/O.png" alt="o" width = "150" height = "150" "photo">
+      </div>
     </div>
 
-
     <div class='gamebox' id='board'>
-      <div class="cell" id='cell0'></div>
-      <div class="cell" id='cell1'></div>
-      <div class="cell" id='cell2'></div>
-      <div class="cell" id='cell3'></div>
-      <div class="cell" id='cell4'></div>
-      <div class="cell" id='cell5'></div>
-      <div class="cell" id='cell6'></div>
-      <div class="cell" id='cell7'></div>
-      <div class="cell" id='cell8'></div>
+
+      <button class="cell" id='cell0'></button>
+      <button class="cell" id='cell1'></button>
+      <button class="cell" id='cell2'></button>
+      <button class="cell" id='cell3'></button>
+      <button class="cell" id='cell4'></button>
+      <button class="cell" id='cell5'></button>
+      <button class="cell" id='cell6'></button>
+      <button class="cell" id='cell7'></button>
+      <button class="cell" id='cell8'></button>
 
     </div>
 
 
     <div class= 'box3'>
-      <div class='player1'>
-        <input id='player1' type="text" placeholder='Name' size="40px">
+      <div class='player1Name'>
+        <div class = 'player1'>
+          <input type="text" placeholder='Player 1 Name:'>
+        </div>
+        <h2 id='#player1Name'> </h2>
       </div>
-      <div class='player2'>
-        <input id='player2' type="text" placeholder='Name'size="40px">
+      <div>
+        <button class='restart'> Restart </button>
+      </div>
+      <div class='player2Name'>
+        <div class = 'player2'>
+          <input type="text" placeholder='Player 2 Name:'>
+        </div>
+        <h2>  </h2>
       </div>
     </div>
   </div>

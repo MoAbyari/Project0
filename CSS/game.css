@@ -1,0 +1,138 @@
+/* * {
+  border: 1px solid white;
+} */
+body{
+  background-color: rgb(62, 60, 66)
+
+}
+.container {
+ display: flex;
+ flex-direction: column;
+ height:100vh;
+ background-color: rgb(62, 60, 66)
+}
+
+.box1{
+  display: flex;
+  height: 20vh;
+  text-align: center;
+
+}
+.xBox{
+  flex: 2;
+  padding: 30px 0px 0px 0px;
+}
+
+.oBox{
+  flex: 2;
+  padding: 30px 0px 0px 0px;
+}
+
+
+.WINNER{
+  flex: 5;
+  margin: 0 auto;
+  font-size: 80px;
+  color: rgb(247 235 235 / 50%);
+  padding: 25px 0px 0px 0px;
+}
+
+
+.gamebox {
+display: grid;
+height:60%;
+width: 99vw;
+height: 60vh;
+justify-content: center;
+align-content: center;
+grid-template-columns: repeat(3,auto)
+}
+
+.cell {
+  width: 100px;
+  height:100px;
+  /* background-color: white; */
+  border:2px black solid;
+  background: repeating-linear-gradient(
+  35deg,
+  rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.5) 10px,
+  rgba(0, 0, 1, 0.3) 3px,
+  rgba(0, 0, 0, 0.5) 10px)
+
+}
+
+#xBox{
+  flex: 3;
+
+}
+#playBox{
+  flex: 3;
+}
+#oBox{
+  flex: 3;
+}
+
+.box3{
+ display: flex;
+ height:10%;
+ padding:10px;
+}
+.player1Name{
+  flex: 3;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+
+}
+.player2Name{
+  flex: 3;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* .player1{
+  width: 120px;
+  height:45px;
+  border-radius: 6px;
+  flex: 3;
+  background-color: rgb(247 235 235 / 50%)
+
+}
+.player2{
+  width: 120px;
+  height:45px;
+  border-radius: 6px;
+  flex: 3;
+  background-color: rgb(247 235 235 / 50%) */
+
+/* } */
+.restart{
+  width: 120px;
+  height:45px;
+  border-radius: 6px;
+  flex: 3;
+  background-color: rgb(247 235 235 / 50%)
+}
+
+.Xcolor {
+  background-color : #445ac1;
+  font-size:85px;
+  text-align:center;
+
+}
+
+.Ocolor {
+  background-color: #751230;
+  font-size:85px;
+  text-align:center;
+
+}
+
+
+/* background-image: url('../IMG/O.png');
+background-size:cover;
+width: 100px;
+height: 100px;
+margin: 0 auto; */
