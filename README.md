@@ -8,7 +8,7 @@ v.01
 
 ### Description
 
-This is my very first web app project and will be continuously improved in the near future.I have started with simple logic and improved the accuracy of the game over time. The current version is V.01.
+This is my very first web app project and will be continuously improved in the near future.I have started with simple logic and improved the accuracy of the game over time.
 
 
 ### Prerequisites
