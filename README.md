@@ -4,7 +4,7 @@ Tik Tak Toe
 
 ## Description
 
-This is my very first web app project and will be continuously improved in the near future.I have started with simple logic and improved the accuracy of the game over time. the current version is V.01.
+This is my very first web app project and will be continuously improved in the near future.I have started with simple logic and improved the accuracy of the game over time. The current version is V.01.
 
 
 ### Prerequisites
@@ -18,9 +18,10 @@ I recommend using google chrome to play the game (V.1). I will be making it comp
 
 ### playing
 
-1. please go to the link https://moabyari.github.io/Project0/
-2. A step by step series of examples that tell you how to get a development env running
-2. Version do not allow Switch turns between X and O .
+1. Please go to the link https://moabyari.github.io/Project0/
+2. At V.01 player 'O' starts the game. V0.1 do not allow Switch Turn between X and O .
+3. The next turn will be displayed on top part of the game.
+4. Simply click on 'Restart' button to restart the game. 
 
 ### Future Continuous Improvement
 
