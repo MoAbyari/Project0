@@ -1,9 +1,9 @@
 ## Project Title : Tik Tak Toe 
 
 
-### Version
+### Current Version
 
-version 01
+v.01
 
 
 ### Description
