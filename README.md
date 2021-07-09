@@ -11,6 +11,7 @@ This is my very first web app project and will be continuously improved in the n
 
 Please note that this version(V.01) is not compatible with mobile devices.
 
+
 ### Executing
 
 I recommend using google chrome to play the game (V.1). I will be making it compatible with smaller screens.
@@ -20,8 +21,10 @@ I recommend using google chrome to play the game (V.1). I will be making it comp
 
 1. Please go to the link https://moabyari.github.io/Project0/
 2. At V.01 player 'O' starts the game. V0.1 do not allow Switch Turn between X and O .
-3. The next turn will be displayed on top part of the game.
-4. Simply click on 'Restart' button to restart the game. 
+3. You can enter your name insdie the placeholders at the buttom of the screen (pls check the upcoming V.02).
+4. The next turn will be displayed on top part of the game. It also display the winner and Darw( pls check the upcoming v.03)
+6. Simply click on 'Restart' button to restart the game. 
+
 
 ### Future Continuous Improvement
 
