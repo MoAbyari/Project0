@@ -1,6 +1,4 @@
-## Project Title
-
-Tik Tak Toe 
+## Project Title : Tik Tak Toe 
 
 
 ### Description
