@@ -2,60 +2,42 @@
 
 Tik Tak Toe
 
-## Getting Started
+## Description
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This is my very first web app project and will be continuously improved in the near future.I have started with simple logic and improved the accuracy of the game over time. the current version is V.01.
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Please note that this version(V.01) is not compatible with mobile devices.
 
-```
-Give examples
-```
+### Executing
 
-### Installing
+I recommend using google chrome to play the game (V.1). I will be making it compatible with smaller screens.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### playing
 
-```
-Give the example
-```
+1. please go to the link https://moabyari.github.io/Project0/
+2. A step by step series of examples that tell you how to get a development env running
+2. Version do not allow Switch turns between X and O .
 
-And repeat
+### Future Continuous Improvement
 
-```
-until finished
-```
+1. V.02
 
-End with an example of getting some data out of the system or using it for a little demo
+* Please note that the current version is not compatible with mobile devices. I will be making it compatible with smaller screens for upcoming versions.
+* Allowing players to switch turns between X and O.
+* Allowing players to enter their names which will be displayed on screen.
 
-## Running the tests
+2. V.03
 
-Explain how to run the automated tests for this system
+* Counting the number of the win for each player.
+* Player can customise their tokens.
+* Animation will be display after each win and draw.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Author
 
-* **Mo Abyari** 
+* **Mo Abyari** https://github.com/MoAbyari
+https://moabyari.github.io/Project0/
