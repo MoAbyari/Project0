@@ -1,6 +1,3 @@
-#Project v.01
-
-
 ## Project Title
 
 Tik Tak Toe
