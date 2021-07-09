@@ -40,4 +40,3 @@ I recommend using google chrome to play the game (V.1). I will be making it comp
 ## Author
 
 * **Mo Abyari** https://github.com/MoAbyari
-https://moabyari.github.io/Project0/
