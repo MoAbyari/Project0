@@ -1,19 +1,14 @@
-let tuRn = 0;
+let turn = 0;
 let winner = '';
 let gameBox = ['sQr0','sQr1','sQr2','sQr3','sQr4','sQr5','sQr6','sQr7','sQr8'];
 let currentPlayer = 'O';
 
-// let player1nameInput = ''
-// $('.start').on('click', function(){
-//   let player1nameInput = $('#player1').val();
-//   console.log(player1nameInput);
-// })
 
 ///////////////////////////// Who is the winner //////////////////////////////
 const winnerVar = function(){
-  if((tuRn) % 2 === 0){
+  if((turn) % 2 === 0){
   winner = 'X'
-  }else if ((tuRn) % 2 !== 0){winner = 'O'}
+  }else if ((turn) % 2 !== 0){winner = 'O'}
 }
 
 //////////////////////////// Logic for winning ///////////////////////////////
@@ -35,7 +30,7 @@ const winNer = function (gameBox){
     const result = `${winner} is winner`;
     $('.WINNER').text(`${winner} is the winner`)
     $('.cell').attr('disabled','disabled');
-    } else if (tuRn > 8){ $('.WINNER').text(`Draw!`)};
+    } else if (turn > 8){ $('.WINNER').text(`Draw!`)};
 
 
   };

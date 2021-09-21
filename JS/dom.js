@@ -1,25 +1,25 @@
 
 $(document).ready(function(){
 
-////////////////////////// tUrn Calculator //////////////////////////////////
+////////////////////////// turn Calculator //////////////////////////////////
 $('.cell').on('click',function(){
-  if(tuRn % 2 === 0){
+  if(turn % 2 === 0){
   $('.WINNER').text( 'X Should Play')
-  }else if (tuRn % 2 !== 0){
+  }else if (turn % 2 !== 0){
     $('.WINNER').text( 'O Should Play')}
 })
 
 /////////////////////////////// Sqr Click Events //////////////////////////////
 $('.cell').click(function(){
-    tuRn += 1
+    turn += 1
     const sQrId = $(this).attr('id');
     const sQrIdNum= sQrId.substr(4);
-    if (tuRn % 2 === 0 ){
+    if (turn % 2 === 0 ){
       $(this).addClass('Xcolor');
       $(this).text('X');
       gameBox[sQrIdNum] = 'X';
 
-    } else if (tuRn % 2 !== 0){
+    } else if (turn % 2 !== 0){
       $(this).addClass('Ocolor');
       $(this).text('O')
       gameBox[sQrIdNum] = 'O'};
@@ -36,13 +36,11 @@ $('.start').on('click', function(){
 /////////////////////////////     Restart Button   /////////////////////////////
 $('.restart').on('click',function(){
   $('.cell').text('').removeClass('Xcolor Ocolor').removeAttr('disabled');
-  tuRn = 0;
+  turn = 0;
   $('.WINNER').text('');
   gameBox = ['sQr0','sQr1','sQr2','sQr3','sQr4','sQr5','sQr6','sQr7','sQr8'];
 
 })
 
-
-// $('#player1Name').html(player1nameInput);
 
 });

@@ -1,51 +1,54 @@
-/* * {
-  border: 1px solid white;
-} */
 body{
-  background-color: rgb(62, 60, 66)
+  background-color: rgb(89 83 101);
 
 }
+
 .container {
- display: flex;
- flex-direction: column;
- height:100vh;
- background-color: rgb(62, 60, 66)
+  display: flex;
+  flex-direction: column;
+  height:100vh;
+  max-width: 80vw;
+  background-color: rgb(89 83 101);
+  margin: 0 auto;
 }
 
 .box1{
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   height: 20vh;
   text-align: center;
 
 }
 .xBox{
-  flex: 2;
+  flex: 1;
   padding: 30px 0px 0px 0px;
+  max-width: fit-content;
 }
 
 .oBox{
-  flex: 2;
+  flex: 1;
   padding: 30px 0px 0px 0px;
+  max-width: fit-content;
 }
 
 
 .WINNER{
-  flex: 5;
+  flex: 3;
   margin: 0 auto;
-  font-size: 80px;
+  font-size: 67px;
+  width: 30vw;
   color: rgb(247 235 235 / 50%);
   padding: 25px 0px 0px 0px;
 }
 
 
 .gamebox {
-display: grid;
-height:60%;
-width: 99vw;
-height: 60vh;
-justify-content: center;
-align-content: center;
-grid-template-columns: repeat(3,auto)
+  display: grid;
+  height: 60vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3,auto)
 }
 
 .cell {
@@ -62,29 +65,20 @@ grid-template-columns: repeat(3,auto)
 
 }
 
-#xBox{
-  flex: 3;
-
-}
-#playBox{
-  flex: 3;
-}
-#oBox{
-  flex: 3;
-}
-
 .box3{
  display: flex;
  height:10%;
  padding:10px;
 }
+
 .player1Name{
   flex: 3;
   height: 40px;
   border-radius: 6px;
   text-align: center;
-
+  border: none;
 }
+
 .player2Name{
   flex: 3;
   height: 40px;
@@ -92,31 +86,17 @@ grid-template-columns: repeat(3,auto)
   text-align: center;
 }
 
-/* .player1{
-  width: 120px;
-  height:45px;
-  /* border-radius: 6px;*/
-  /* flex: 3;
-  background-color: rgb(247 235 235 / 50%)
-
-}
-.player2{ */
-  /* width: 120px;
-  height:45px;
-  border-radius: 6px;
-  flex: 3;
-  background-color: rgb(247 235 235 / 50%) */
-
-/* } */
 .placeHold1{
   width: 120px;
   height:40px;
   border-radius: 6px;
   flex: 3;
-  text-color: black;
+  color: black;
+  border: none;
   background-color: rgb(247 235 235 / 50%)
 
 }
+
 ::placeholder{
   color:black;
   text-align: center;
@@ -125,12 +105,14 @@ grid-template-columns: repeat(3,auto)
 input {
     text-align: center;
 }
+
 .restart{
   width: 120px;
   height:45px;
   border-radius: 6px;
   flex: 3;
-  background-color: rgb(247 235 235 / 50%)
+  background-color: rgb(247 235 235 / 50%);
+  border: none;
 }
 
 .Xcolor {
@@ -148,10 +130,3 @@ input {
 
 }
 
-
-
-/* background-image: url('../IMG/O.png');
-background-size:cover;
-width: 100px;
-height: 100px;
-margin: 0 auto; */
